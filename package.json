@@ -1,0 +1,20 @@
+{
+  "name": "gas-typescript",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "author": "hori-ryota <hori.ryota@gmail.com>",
+  "private": true,
+  "scripts": {
+    "publish": "npm run build && npm run upload",
+    "build": "npm run tsc",
+    "tsc": "tsc",
+    "upload": "gapps upload"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hori-ryota/gas-typescript.git"
+  },
+  "devDependencies": {
+    "@types/google-apps-script": "^0.0.11"
+  }
+}
